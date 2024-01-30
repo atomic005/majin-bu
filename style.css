@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-collapse: collapse;
+    
+}
+::placeholder{
+    color: rgb(185, 204, 187);
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background: rgb(27, 33, 46);
+}
+p{
+    color: rgba(149, 156, 161, 0.61);
+    
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.from{
+    width: 500px;
+    height: 730px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    padding: 20px 40px;
+    transform: translate( -50% , -50%);
+    position: absolute;
+    background-image: url("bg.svg") ;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 15px rgb(14 11 11);
+}
+.ad{
+    padding: 800px;
+}
+.from .img{
+    width: 120px;
+    margin: auto;
+    padding-top: 20px;
+}
+img{
+    width: 100%;
+    margin: 30px 0px;
+}
+form{
+    margin-top: 70px;
+    text-align: center;
+}
+i{
+    color: white;
+    font-size: 20px;
+}
+
+
+.input{
+    margin-top: 30px;
+}
+input{
+    padding: 10px ;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: transparent;
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+input{
+    border-bottom: 1px solid yellowgreen;
+}
+#btn{
+    background: rgba(3, 3, 3, 0.699);
+   transition: .1s;
+    margin-top: 120px;
+    font-size: 20px;
+    margin-top: 90px;
+    width: 100px;
+    padding: 7px 0px 10px 0px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+#btn:hover{
+    background-color: transparent;
+    border-color: white;
+}
+#btn:focus{
+    background: rgba(3, 3, 3, 0.699);
+    border-color: white;
+}
+footer{
+    margin-top: 100px ;
+    padding: 10px;
+}
+footer i {
+    font-size: 24px;
+    margin-left:10px;
+    transition: .2s;
+}
+footer i:hover{
+    color: #2bdbd2;
+}
